@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    outline: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(238, 236, 236);
+}
+form{
+    margin: 10rem;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 4px solid black;
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: larger;
+    margin: 0 2rem;
+}
+
+input{
+    font-size:larger;
+    margin: 0 1rem;
+    padding: 1rem;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.square{
+    border: 8px solid black;
+    position: relative;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+span{
+    display: flex;
+    border: 5px solid black;
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+.spa{
+    border: 2px solid black;
+    background-color: red;
+}
+.spb{
+    border: 2px solid black;
+    background-color: skyblue;
+}
+
+.spc{
+    border: 2px solid black;
+    background-color: yellow;
+}
+
+.spd{
+    border: 2px solid black;
+    background-color: green;
+}
+
+
+.spinner{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    border: 4px solid black;
+    height: 5rem;
+    width: 10rem;
+    cursor: pointer;
+    
+}
+@media only screen and (max-width: 600px) {
+    .spinner {
+      height: 3rem;
+      width: 5rem;
+    }
+    .square{
+        width: 300px;
+        height: 300px;
+    }
+    .form{
+        width: 14rem;
+        height: 14rem;
+    }
+  }
+
+  
